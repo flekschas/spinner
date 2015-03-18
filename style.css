@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   position: absolute;
   width: 100%;
@@ -11,6 +16,7 @@ body {
   left: 50%;
   width: 100px;
   height: 100px;
+  margin: -50px 0 0 -50px;
   background: #d35400;
 }
 

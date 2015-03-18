@@ -1,0 +1,78 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff ;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: #d35400;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.spinner {
+  position: relative;
+  display: block;
+  top: 30px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  transform: scale(0);
+  opacity: 1;
+}
+
+.loading .spinner {
+  transform: scale(1);
+  transition: all 0.3s cubic-bezier(.42,0,.58,1);
+}
+
+.going-inactive .spinner {
+  transform: scale(3);
+  opacity: 0;
+}
+
+.active .spinner .blocks {
+  -webkit-animation: rotate 1.5s infinite linear;
+  animation: rotate 1.5s infinite linear;
+
+  transform-origin: 20px 20px;
+}
+
+.active .spinner .blocks .one {
+  fill: #d35400;
+
+  -webkit-animation: rotate 1.5s infinite cubic-bezier(.2,.2,.15,1);
+  animation: rotate 1.5s infinite cubic-bezier(.2,.2,.15,1);
+
+  transform-origin: 20px 20px;
+}
+
+.active .spinner .blocks .two {
+  fill: #d35400;
+
+  -webkit-animation: rotate 1.5s infinite cubic-bezier(.1,.15,.8,.8);
+  animation: rotate 1.5s infinite cubic-bezier(.1,.15,.8,.8);
+
+  transform-origin: 20px 20px;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg)
+  }
+}

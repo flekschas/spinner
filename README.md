@@ -1,7 +1,36 @@
 # Spinner
-CSS 3 animated spinner
+CSS 3 animated spinner using SVG.
 
 ## Example
-Go here: https://flekschas.github.io/spinner/
-Click in the orange box to start the spinner. A second click will stop the spinner.
+See the spinner spinning: https://flekschas.github.io/spinner/
 
+## Browser Support
+
+### Theoretical
+
+SVG: http://caniuse.com/#feat=svg
+CSS3 Transitions: http://caniuse.com/#feat=css-transitions
+CSS3 Annimations: http://caniuse.com/#feat=css-animation
+
+**Desktop**
+Chrome >= 4
+Safari >= 4
+Firefox >= 5
+Opera >= 12.1
+Internet Explorer >= 10
+
+**Mobile**
+iOS Safari >= 3.2
+Android Browser >= 3
+
+### Tested
+
+* Chrome 41 [1]
+* Safari 6.2.6 [2]
+* Firefox 10 [3], 20 [2], 36 [1]
+* Opera 12.15 [3], 26 [1]
+* Internet Explorer 10 [3]
+
+[1] Decent performance
+[2] Acceptable performance
+[3] Failed

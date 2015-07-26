@@ -92,13 +92,6 @@ body {
   stroke: #fff;
 }
 
-.correct {
-  -webkit-transform: translate(20px, 20px);
-     -moz-transform: translate(20px, 20px);
-       -o-transform: translate(20px, 20px);
-          transform: translate(20px, 20px);
-}
-
 .active .spinner .blocks {
   -webkit-animation: rotate 1.5s infinite linear;
      -moz-animation: rotate 1.5s infinite linear;

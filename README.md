@@ -26,7 +26,7 @@ See the spinner spinning: https://flekschas.github.io/spinner/
 ### Tested
 
 **Desktop**
-* Chrome 41 [1]
+* Chrome 19 [1], 41 [1]
 * Safari 6.2.6 [2]
 * Firefox 10 [3], 20 [2], 36 [1]
 * Opera 12.15 [3], 26 [1]

@@ -1,6 +1,5 @@
 ### CUSTOM ###
-*.sublime-project
-*.sublime-workspace
+*.sublime*
 
 ### OSX ###
 .DS_Store
@@ -28,3 +27,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+jquery.js

@@ -1,12 +1,42 @@
 # Spinner
-CSS 3 animated spinner using SVG.
+~~CSS3~~ SMIL-animated spinner using SVG. Originally I animated SVG exclusively with CSS3 but the browser support is worse compared to SMIL.
 
 ## Example
 See the spinner spinning: https://flekschas.github.io/spinner/
 
 ## Browser Support
 
-### Theoretical
+### SMIL
+
+#### Theoretical
+
+* SVG: http://caniuse.com/#feat=svg-smil
+
+**Desktop** 
+* Chrome >= 5
+* Safari >= 6
+* Firefox >= 4
+* Opera >= 10.1
+
+**Mobile**
+* Mobile Safari >= 6.1
+* Android Browser >= 3
+
+#### Tested
+
+**Desktop**
+* Chrome 19 [1], 44 [1]
+* Safari 6.2.7 [2]
+* Firefox 5 [2], 36 [1]
+* Opera 12.15 [2], 28 [1]
+
+**Mobile**
+* Mobile Safari 8 [1]
+* iOS Chrome 42 [1]
+
+### CSS3
+
+#### Theoretical
 
 * SVG: http://caniuse.com/#feat=svg
 * CSS3 Transitions: http://caniuse.com/#feat=css-transitions
@@ -23,7 +53,7 @@ See the spinner spinning: https://flekschas.github.io/spinner/
 * Mobile Safari >= 3.2
 * Android Browser >= 3
 
-### Tested
+#### Tested
 
 **Desktop**
 * Chrome 19 [1], 41 [1]

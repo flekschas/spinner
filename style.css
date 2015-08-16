@@ -92,7 +92,8 @@ body {
   stroke: #fff;
 }
 
-.active .spinner .blocks {
+/** Only needed for CSS3-animated the SVG spinner */
+/*.active .spinner .blocks {
   -webkit-animation: rotate 1.5s infinite linear;
      -moz-animation: rotate 1.5s infinite linear;
        -o-animation: rotate 1.5s infinite linear;
@@ -102,7 +103,7 @@ body {
      -moz-transform-origin: 0 0;
        -o-transform-origin: 0 0;
           transform-origin: 0 0;
-}
+}*/
 
 .spinner .blocks .one,
 .spinner .blocks .two {
@@ -121,13 +122,10 @@ body {
 .active .spinner .blocks .one,
 .active .spinner .blocks .two {
   fill: #d35400;
-  -webkit-transform-origin: 0 0;
-     -moz-transform-origin: 0 0;
-       -o-transform-origin: 0 0;
-          transform-origin: 0 0;
 }
 
-.active .spinner .blocks .one {
+/** Only needed for CSS3-animated the SVG spinner */
+/*.active .spinner .blocks .one {
   -webkit-animation: rotate 1.5s infinite cubic-bezier(.2,.2,.15,1);
      -moz-animation: rotate 1.5s infinite cubic-bezier(.2,.2,.15,1);
        -o-animation: rotate 1.5s infinite cubic-bezier(.2,.2,.15,1);
@@ -166,4 +164,4 @@ body {
          -o-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
+}*/
